@@ -26,14 +26,20 @@ selector = your tooltip selector. If you identify your tooltips with an id/class
 
 object = the object of key-values that provide definitions for keywords. You can provide this inline as `{ "key":"value"}` or with its name if pre-defined.
 
-Example:
+Example output:
+
+```html
+<a rel="tooltip" href="#" title="A written or printed work consisting of pages glued or sewn together along one side and bound in covers.">book</a>
+```
+
+from:
 
 ```javascript
 jtip(
 	"title", /* because I want my tooltip content (ie the text that is in the tooltip when hovered) to be shown in the title attribute */
 	"rel", /* because my tooltip plugin identifies tooltips by their "rel" attribute */
 	"tooltip", /* because my tooltip plugin makes tooltips from elements with a rel attribute of "tooltip" */
-	{"define": "definition","book": "a book has paper"}
+	{"define": "definition","book": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."}
 );
 ```
 
