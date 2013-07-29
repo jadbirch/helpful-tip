@@ -1,0 +1,14 @@
+body {
+	font-size:130%;
+}
+
+.container {
+	width:60%;
+	margin: 0 auto;
+}
+
+.tip {
+	border-bottom: 1px dotted #000;
+	color: rgb(80,80,80);
+	cursor:pointer;
+}
