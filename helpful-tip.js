@@ -1,4 +1,4 @@
-function jtip(object) {
+function htip(object) {
 	$(document).ready(function() {
 	for (var definition in object) {
 		if(object.hasOwnProperty(definition)) {
