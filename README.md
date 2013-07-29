@@ -20,8 +20,10 @@ You can pass in an object inline or by its variable name.
 Example output:
 
 ```html
-<a href="#" class="tip" title="A written or printed work consisting of pages glued or sewn together along one side and bound in covers.">book</a>
+<span title="Any of various birds of the order Galliformes, especially the common, widely domesticated chicken " class="tip">fowl</span>
 ```
+
+![](http://i.imgur.com/SZhgrn2.png)
 
 ### Styling
 
