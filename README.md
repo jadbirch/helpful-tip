@@ -14,7 +14,7 @@ http://jarrodbirch.co.uk/helpful-tip
 ### Usage
 
 ```javascript
-jtip(
+htip(
 	object
 );
 ```
